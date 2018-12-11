@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 
+/**
+ * 过滤器：拦截请求
+ */
 @Component
 public class MyFilter extends ZuulFilter {
 
@@ -34,7 +37,10 @@ public class MyFilter extends ZuulFilter {
 		log.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
 		Object accessToken = request.getParameter("token");
 		String refer=request.getHeader("refer");
-	
+	    //业务代码
+	   /*if (accessToken.toString()==""){
+			//XXXXXXXXXXXXXXXXXXXXXXX
+		}*/
 		if (accessToken != null) {
 			return null;
 		}
