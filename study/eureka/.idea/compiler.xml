@@ -11,6 +11,7 @@
         <module name="eureka-customer" />
         <module name="eureka-service" />
         <module name="service-config" />
+        <module name="service-order-feign" />
         <module name="service-zuul" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="eureka-customer" target="1.8" />
       <module name="eureka-service" target="1.8" />
       <module name="service-config" target="1.8" />
+      <module name="service-order-feign" target="1.8" />
       <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

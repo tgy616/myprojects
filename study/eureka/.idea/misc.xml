@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/service-config/pom.xml" />
         <option value="$PROJECT_DIR$/client-config/pom.xml" />
+        <option value="$PROJECT_DIR$/service-order-feign/pom.xml" />
       </list>
     </option>
   </component>
