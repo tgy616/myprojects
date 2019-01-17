@@ -16,9 +16,18 @@ public class ClientController {
 
     @Value("${server.port}")
     private String serverPort;
+    private static int count=0;
 
     @RequestMapping("/getAllInfo")
     public List<String> getAllInfo(){
+        //睡眠是为了模拟雪崩效应   测试
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        count++;
+        System.out.println("count:"+count);
         ArrayList<String> list = new ArrayList<>();
         list.add("test1");
         list.add("test2");

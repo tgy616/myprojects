@@ -15,6 +15,7 @@ public class FeignMemberController {
 
 	@RequestMapping("/getFeignOrderByUserList")
 	public List<String> getFeignOrderByUserList() {
+		System.out.println("order-feign工程调用eureka-client工程");
 		return memberFeign.getOrderByUserList();
 	}
 
