@@ -9,15 +9,15 @@ server:
 spring:
   application:
     name: service-order-feign
-#feign:
-#   hystrix:
-#     enabled: true
-#hystrix:
-#   command: 
-#     default: 
-#       execution: 
-#        isolation:
-#         thread: 
-#          timeoutInMilliseconds: 4000
-     
+feign:
+   hystrix:
+     enabled: true
+hystrix:
+   command:
+     default:
+       execution:
+        isolation:
+         thread:
+          timeoutInMilliseconds: 4000
+
 
