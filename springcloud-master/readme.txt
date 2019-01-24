@@ -3,8 +3,8 @@ this is a projects which submit by me.
 
 
 
-1、dubbo和springcloud的区别:
-dubbo采用的是RPC协议进行通信，springcloud采用的是基于http的restful api进行通信。
+1、dubbo和SpringCloud的区别:
+dubbo采用的是RPC协议进行通信，SpringCloud采用的是基于http的restful api进行通信。
 （在性能上来说，由于Dubbo底层是使用Netty这样的NIO框架，是基于TCP协议传输的，配合以Hession序列化完成RPC。
 而SpringCloud是基于Http协议+rest接口调用远程过程的，相对来说，Http请求会有更大的报文，占的带宽也会更多。）
 2、微服务的优缺点
@@ -32,15 +32,23 @@ dubbo采用的是RPC协议进行通信，springcloud采用的是基于http的res
 3、微服务面试题汇总
  1)什么是微服务
  2)微服务之间是如何独立通讯的
- 3)springCloud和Dubbo有哪些区别
- 4)Springboot和springcloud，请你谈谈对他们的理解
+ 3)SpringCloud和Dubbo有哪些区别
+
+
+
+ 4)SpringBoot和SpringCloud，请你谈谈对他们的理解
+   SpringBoot专注于快速方便的开发单个个体微服务。
+   SpringCloud是公主全局的微服务协调治理框架，它将SpringBoot开发的一个个简单微服务整合并管理起来，为各个微服务之间提供配置管理、
+   服务发现、断路器、路由、微代理、时间总线、全局锁、决策竞选、分布式会话等等集成服务
+   SpringBoot可以离开SpringCloud独立使用开发项目，但是SpringCloud离不开SpringBoot，属于依赖的关系。
+   SpringBoot专注于快速、方便的开发单个微服务个体，SpringCloud关注全局的服务治理框架。
  5)什么是服务熔断？什么是服务降级
  6)微服务的优缺点分别是什么？说下你在项目开发中碰到的坑
  7)你所知道的微服务技术栈有哪些？请列举一二
     微服务技术栈是指多种技术的集合体
-    -----------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------
     -------  微服务条目                            落地技术
-    服务开发                                  --springboot、spring、springMVC
+    服务开发                                  --SpringBoot、spring、springMVC
     服务配置与管理                            --Netflix公司的Archaius、阿里的Diamond等
     服务注册与发现                            --Eureka、 Consul、Zookeeper等
     服务调用                                  --Rest、RPC、gRPC
@@ -48,7 +56,7 @@ dubbo采用的是RPC协议进行通信，springcloud采用的是基于http的res
     负载均衡                                  --Ribbon、Nginx等
     服务接口调用（客服端调用服务的简化工具）  --Feign等
     消息队列                                  --Kafka、RabbitMQ、ActiveMQ等
-    服务配置中心管理                          --springCloudConfig、Chef等
+    服务配置中心管理                          --SpringCloudConfig、Chef等
     服务路由（API网关）                       --Zuul等
     服务监控                                  --Zabbix、Nagios、Metrics、Spectator等
     全链路追踪                                --Zipkin、Brave、Dapper等
