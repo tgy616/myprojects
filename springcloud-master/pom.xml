@@ -5,9 +5,6 @@
 	<groupId>com.tgy.springcloud</groupId>
 	<artifactId>microservicecloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<modules>
-		<module>api</module>
-	</modules>
 	<packaging>pom</packaging>
 
 
@@ -90,6 +87,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<modules>
+		<module>api</module>
+		<module>provider-dept-8001</module>
+	</modules>
 	<!--	<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-consumer-dept-80</module>
 		<module>microservicecloud-eureka-7001</module>

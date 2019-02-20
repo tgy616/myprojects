@@ -12,6 +12,7 @@
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
       <module name="microservicecloud" target="1.8" />
+      <module name="providerdept" target="1.8" />
       <module name="springcloud-master" target="1.8" />
     </bytecodeTargetLevel>
   </component>
