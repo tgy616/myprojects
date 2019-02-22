@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud.iml" filepath="$PROJECT_DIR$/microservicecloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider-dept-8001/provider-dept-8001.iml" filepath="$PROJECT_DIR$/provider-dept-8001/provider-dept-8001.iml" />
     </modules>
   </component>
 </project>
