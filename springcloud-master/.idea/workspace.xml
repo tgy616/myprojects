@@ -33,6 +33,7 @@
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前提知识.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -104,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeptController_Consumer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeptController_Consumer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/controller/DeptController_Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -116,6 +117,15 @@
                 <element signature="e#1624#1625#0" expanded="true" />
                 <element signature="e#1723#1724#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="81" column="72" lean-forward="true" selection-start-line="81" selection-start-column="72" selection-end-line="81" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -182,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/api/src/main/java/service/DeptClientService.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/tgy/api/entities/Dept.java" />
@@ -205,6 +214,7 @@
         <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/controller/DeptController_Consumer.java" />
         <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/DeptConsumer80_App.java" />
         <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/cfgbeans/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -529,9 +539,9 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyGitHub\springcloud-master" />
       <recent name="D:\MyGitHub\springcloud-master\consumer-dept-80\src\main\resources" />
       <recent name="D:\MyGitHub\springcloud-master\provider-dept-8001\src\main\resources" />
-      <recent name="D:\MyGitHub\springcloud-master" />
       <recent name="D:\MyGitHub\springcloud-master\pic-note" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -676,7 +686,7 @@
       <workItem from="1551668744471" duration="701000" />
       <workItem from="1551682331396" duration="1043000" />
       <workItem from="1551841320432" duration="4167000" />
-      <workItem from="1551921131768" duration="12615000" />
+      <workItem from="1551921131768" duration="14870000" />
     </task>
     <task id="LOCAL-00001" summary="问题汇总">
       <created>1548146087719</created>
@@ -703,7 +713,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96452000" />
+    <option name="totallyTimeSpent" value="98707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -731,7 +741,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3803132" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -995,13 +1005,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="10" selection-start-line="40" selection-start-column="3" selection-end-line="41" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1209,6 +1212,13 @@
             <element signature="e#1624#1625#0" expanded="true" />
             <element signature="e#1723#1724#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="81" column="72" lean-forward="true" selection-start-line="81" selection-start-column="72" selection-end-line="81" selection-end-column="72" />
         </state>
       </provider>
     </entry>
