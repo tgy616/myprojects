@@ -5,16 +5,30 @@
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/src/main/java/com/tgy/springcloud/entities/Dept.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/src/main/java/com/tgy/springcloud/service/DeptClientService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/src/main/java/com/tgy/springcloud/service/DeptClientServiceFallbackFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/consumer-dept-80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/myrule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/myrule/RandomRule_ZY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/DeptConsumer80_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/cfgbeans/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/controller/DeptController_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pic-note/SpringCloud和Dubbo的对比.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pic-note/各微服务框架对比.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/provider-dept-8001.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/providerdept.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/DeptProvider8001_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/controller/DeptController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/service/impl/DeptServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
@@ -30,6 +44,7 @@
     <ignored path="$PROJECT_DIR$/microservicecloud/api/target/" />
     <ignored path="$PROJECT_DIR$/provider-dept/target/" />
     <ignored path="$PROJECT_DIR$/provider-dept-8001/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-dept-80/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,95 +57,17 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="242">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeptMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeptProvider8001_App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/DeptProvider8001_App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeptService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/service/DeptService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeptServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/service/impl/DeptServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeptController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/controller/DeptController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeptDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/dao/DeptDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-202">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -138,8 +75,85 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
+            <state relative-caret-position="418">
+              <caret line="19" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="124" selection-start-line="8" selection-start-column="124" selection-end-line="8" selection-end-column="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/cfgbeans/ConfigBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptController_Consumer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/controller/DeptController_Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1624#1625#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptConsumer80_App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/DeptConsumer80_App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomRule_ZY.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/myrule/RandomRule_ZY.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySelfRule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/myrule/MySelfRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,8 +163,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -179,11 +193,18 @@
         <option value="$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/sql.sql" />
         <option value="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/dao/DeptDao.java" />
-        <option value="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
         <option value="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/DeptProvider8001_App.java" />
         <option value="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/service/DeptService.java" />
         <option value="$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/service/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/myrule/RandomRule_ZY.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/myrule/MySelfRule.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/controller/DeptController_Consumer.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/DeptConsumer80_App.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/cfgbeans/ConfigBean.java" />
       </list>
     </option>
   </component>
@@ -297,17 +318,84 @@
             <path>
               <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgy" type="462c0819:PsiDirectoryNode" />
+              <item name="myrule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgy" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgy" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cfgbeans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tgy" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-master" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -428,7 +516,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/api/src/main/java/com/tgy/api" />
-    <property name="last_opened_file_path" value="E:/gitFiles/xcc-api" />
+    <property name="last_opened_file_path" value="E:/workFiles/lanzhong_20190211_xd_36" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -437,17 +525,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyGitHub\springcloud-master\microservicecloud" />
-      <recent name="D:\MyGitHub\springcloud-master\pic" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyGitHub\springcloud-master\consumer-dept-80\src\main\resources" />
       <recent name="D:\MyGitHub\springcloud-master\provider-dept-8001\src\main\resources" />
       <recent name="D:\MyGitHub\springcloud-master" />
       <recent name="D:\MyGitHub\springcloud-master\pic-note" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyGitHub\springcloud-master\microservicecloud" />
+      <recent name="D:\MyGitHub\springcloud-master\pic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -462,7 +551,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeptProvider8001_App">
+  <component name="RunManager" selected="Application.DeptConsumer80_App">
     <configuration name="Dept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tgy.springcloud.entities.Dept" />
       <module name="api" />
@@ -470,6 +559,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tgy.springcloud.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DeptConsumer80_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tgy.springcloud.DeptConsumer80_App" />
+      <module name="consumer-dept-80" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tgy.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -539,9 +639,11 @@
     <list>
       <item itemvalue="Application.Dept" />
       <item itemvalue="Application.DeptProvider8001_App" />
+      <item itemvalue="Application.DeptConsumer80_App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeptConsumer80_App" />
         <item itemvalue="Application.DeptProvider8001_App" />
         <item itemvalue="Application.Dept" />
       </list>
@@ -573,6 +675,8 @@
       <workItem from="1551056239229" duration="2602000" />
       <workItem from="1551668744471" duration="701000" />
       <workItem from="1551682331396" duration="1043000" />
+      <workItem from="1551841320432" duration="4167000" />
+      <workItem from="1551921131768" duration="12615000" />
     </task>
     <task id="LOCAL-00001" summary="问题汇总">
       <created>1548146087719</created>
@@ -599,10 +703,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79670000" />
+    <option name="totallyTimeSpent" value="96452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -615,14 +720,15 @@
       <window_info id="Structure" order="1" sideWeight="0.50111854" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30872482" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3803132" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.25" />
@@ -631,7 +737,6 @@
       <window_info anchor="right" id="BPMNPalette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -680,81 +785,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/service/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/dao/DeptDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="73" lean-forward="true" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/DeptProvider8001_App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -775,6 +817,12 @@
           <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -968,41 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/tgy/springcloud/service/DeptClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/tgy/springcloud/entities/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1014,6 +1027,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/tgy/springcloud/entities/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1029,15 +1049,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state relative-caret-position="264">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/DeptProvider8001_App.java">
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/tgy/springcloud/service/DeptClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="404">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1060,16 +1080,134 @@
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+        <state relative-caret-position="558">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/java/com/tgy/springcloud/DeptProvider8001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/cfgbeans/DeptConsumer80_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="124" selection-start-line="8" selection-start-column="124" selection-end-line="8" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/myrule/RandomRule_ZY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/myrule/MySelfRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/DeptConsumer80_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/cfgbeans/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/tgy/springcloud/controller/DeptController_Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
           </folding>
         </state>
       </provider>
