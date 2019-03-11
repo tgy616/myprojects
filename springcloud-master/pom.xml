@@ -91,6 +91,7 @@
 		<module>api</module>
 		<module>provider-dept-8001</module>
         <module>consumer-dept-80</module>
+        <module>eureka-7001</module>
     </modules>
 	<!--	<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-consumer-dept-80</module>
