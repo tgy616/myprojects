@@ -9,6 +9,8 @@
         <module name="api" />
         <module name="consumer-dept-80" />
         <module name="eureka7001" />
+        <module name="eureka7002" />
+        <module name="eureka7003" />
         <module name="provider-dept-8001" />
       </profile>
     </annotationProcessing>
@@ -16,6 +18,8 @@
       <module name="api" target="1.8" />
       <module name="consumer-dept-80" target="1.8" />
       <module name="eureka7001" target="1.8" />
+      <module name="eureka7002" target="1.8" />
+      <module name="eureka7003" target="1.8" />
       <module name="microservicecloud" target="1.8" />
       <module name="provider-dept-8001" target="1.8" />
       <module name="providerdept" target="1.8" />

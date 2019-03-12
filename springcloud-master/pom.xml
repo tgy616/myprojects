@@ -92,7 +92,9 @@
 		<module>provider-dept-8001</module>
         <module>consumer-dept-80</module>
         <module>eureka-7001</module>
-    </modules>
+        <module>eureka-7002</module>
+		<module>eureka-7003</module>
+	</modules>
 	<!--	<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-consumer-dept-80</module>
 		<module>microservicecloud-eureka-7001</module>
