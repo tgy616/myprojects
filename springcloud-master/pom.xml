@@ -95,9 +95,9 @@
         <module>eureka-7002</module>
 		<module>eureka-7003</module>
         <module>provider-dept-8002</module>
-		<module>providerdept8003</module>
 		<module>provider-dept-8003</module>
-	</modules>
+        <module>consumer-dept-feign</module>
+    </modules>
 	<!--	<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-consumer-dept-80</module>
 		<module>microservicecloud-eureka-7001</module>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="consumer-dept-80" />
+        <module name="consumerdeptfeign" />
         <module name="eureka7001" />
         <module name="eureka7002" />
         <module name="eureka7003" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
       <module name="consumer-dept-80" target="1.8" />
+      <module name="consumerdeptfeign" target="1.8" />
       <module name="eureka7001" target="1.8" />
       <module name="eureka7002" target="1.8" />
       <module name="eureka7003" target="1.8" />

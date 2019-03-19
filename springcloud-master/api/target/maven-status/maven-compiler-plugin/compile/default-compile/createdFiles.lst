@@ -1,0 +1,3 @@
+com\tgy\springcloud\service\DeptClientService.class
+com\tgy\springcloud\entities\Dept.class
+com\tgy\springcloud\service\DeptClientServiceFallbackFactory.class
