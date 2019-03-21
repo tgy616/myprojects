@@ -15,6 +15,7 @@
         <module name="provider-dept-8001" />
         <module name="providerdept8002" />
         <module name="providerdept8003" />
+        <module name="providerdepthystrix8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="providerdept" target="1.8" />
       <module name="providerdept8002" target="1.8" />
       <module name="providerdept8003" target="1.8" />
+      <module name="providerdepthystrix8001" target="1.8" />
       <module name="springcloud-master" target="1.8" />
     </bytecodeTargetLevel>
   </component>
