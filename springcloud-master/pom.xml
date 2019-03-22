@@ -98,6 +98,7 @@
 		<module>provider-dept-8003</module>
         <module>consumer-dept-feign</module>
         <module>provider-dept-hystrix-8001</module>
+        <module>consumer-hystrix-dashboard</module>
     </modules>
 	<!--	<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-consumer-dept-80</module>
