@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-3344/config3344.iml" filepath="$PROJECT_DIR$/config-3344/config3344.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-dept-80/consumer-dept-80.iml" filepath="$PROJECT_DIR$/consumer-dept-80/consumer-dept-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-dept-feign/consumerdeptfeign.iml" filepath="$PROJECT_DIR$/consumer-dept-feign/consumerdeptfeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-hystrix-dashboard/consumerhystrixdashboard.iml" filepath="$PROJECT_DIR$/consumer-hystrix-dashboard/consumerhystrixdashboard.iml" />

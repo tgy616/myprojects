@@ -100,6 +100,7 @@
         <module>provider-dept-hystrix-8001</module>
         <module>consumer-hystrix-dashboard</module>
         <module>zuul-gateway-9527</module>
+        <module>config-3344</module>
     </modules>
 	<!--	<module>microservicecloud-provider-dept-8001</module>
 		<module>microservicecloud-consumer-dept-80</module>
