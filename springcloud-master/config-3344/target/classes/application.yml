@@ -1,5 +1,5 @@
 server: 
-  port: 3344 
+  port: 3344
   
 spring:
   application:
@@ -8,6 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:tgy616/microservicecloud-config.git #GitHub上面的git仓库名字
- 
+           uri: https://github.com/tgy616/microservicecloud-config.git
+#          uri: git@github.com:tgy616/microservicecloud-config.git #GitHub上面的git仓库名字
+
 

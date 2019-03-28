@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-3344/config3344.iml" filepath="$PROJECT_DIR$/config-3344/config3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client-3355/configclient3355.iml" filepath="$PROJECT_DIR$/config-client-3355/configclient3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-dept-client-8001/configdeptclient8001.iml" filepath="$PROJECT_DIR$/config-dept-client-8001/configdeptclient8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-eureka-client-7001/configeurekaclient7001.iml" filepath="$PROJECT_DIR$/config-eureka-client-7001/configeurekaclient7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-dept-80/consumer-dept-80.iml" filepath="$PROJECT_DIR$/consumer-dept-80/consumer-dept-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-dept-feign/consumerdeptfeign.iml" filepath="$PROJECT_DIR$/consumer-dept-feign/consumerdeptfeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-hystrix-dashboard/consumerhystrixdashboard.iml" filepath="$PROJECT_DIR$/consumer-hystrix-dashboard/consumerhystrixdashboard.iml" />

@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="config3344" />
+        <module name="configclient3355" />
+        <module name="configdeptclient8001" />
+        <module name="configeurekaclient7001" />
         <module name="consumer-dept-80" />
         <module name="consumerdeptfeign" />
         <module name="consumerhystrixdashboard" />
@@ -24,6 +27,9 @@
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
       <module name="config3344" target="1.8" />
+      <module name="configclient3355" target="1.8" />
+      <module name="configdeptclient8001" target="1.8" />
+      <module name="configeurekaclient7001" target="1.8" />
       <module name="consumer-dept-80" target="1.8" />
       <module name="consumerdeptfeign" target="1.8" />
       <module name="consumerhystrixdashboard" target="1.8" />
