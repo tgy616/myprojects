@@ -17,7 +17,7 @@ import javax.validation.constraints.NotNull;
 public class Person {
 
     @NotNull
-    @PersonNamePrefix(prefix = "segmentfault-")
+    @PersonNamePrefix(prefix = "tgy-")
     private String name;
 
     @Min(value = 0)

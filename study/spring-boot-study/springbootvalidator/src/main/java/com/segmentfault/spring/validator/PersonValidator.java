@@ -25,8 +25,8 @@ public class PersonValidator implements Validator {
     public void validate(Object target, Errors errors) {
 
         Person person = Person.class.cast(target);
-
-        String name = person.getName(); //名字需要校验
+        //名字需要校验
+        String name = person.getName();
 
         if (!StringUtils.hasLength(name)) {
 
