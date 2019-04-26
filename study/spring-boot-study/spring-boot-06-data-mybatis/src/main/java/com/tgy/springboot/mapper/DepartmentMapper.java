@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.*;
 
 
 //指定这是一个操作数据库的mapper
-@Mapper
+//@Mapper
 public interface DepartmentMapper {
 
     @Select("select * from department where id=#{id}")
