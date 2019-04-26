@@ -2,7 +2,7 @@ package com.tgy.springbootmybatis.demo;
 
 
 import com.tgy.springbootmybatis.annotation.UserMapper;
-import com.tgy.springbootmybatis.entity2.User;
+import com.tgy.springbootmybatis.entity.User;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
