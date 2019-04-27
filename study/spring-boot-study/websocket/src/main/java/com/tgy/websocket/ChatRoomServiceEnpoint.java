@@ -21,51 +21,37 @@ public class ChatRoomServiceEnpoint {
 
     @OnOpen
     public void openSession(@PathParam("username") String username, Session session) {
-
         String sessionId = session.getId();
-
         livingSessions.put(sessionId, session);
-
         sendTextAll("欢迎用户[" + username + "] 来到聊天室！");
-
     }
 
     @OnMessage
     public void onMessage(@PathParam("username") String username, Session session, String message) {
-
 //        sendText(session, "用户[" + username + "] : " + message);
-
         sendTextAll("用户[" + username + "] : " + message);
     }
 
     private void sendTextAll(String message) {
-
         livingSessions.forEach((sessionId, session) -> {
             sendText(session, message);
         });
     }
-
     @OnClose
     public void onClose(@PathParam("username") String username, Session session) {
-
         String sessionId = session.getId();
-
         //当前的Session 移除
         livingSessions.remove(sessionId);
         //并且通知其他人当前用户已经离开聊天室了
         sendTextAll("用户[" + username + "] 已经离开聊天室了！");
     }
 
-
     private void sendText(Session session, String message) {
-
         RemoteEndpoint.Basic basic = session.getBasicRemote();
-
         try {
             basic.sendText(message);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
