@@ -4,6 +4,7 @@ import javax.websocket.*;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -16,6 +17,8 @@ import java.util.concurrent.ConcurrentHashMap;
  **/
 @ServerEndpoint("/chat-room/{username}")
 public class ChatRoomServiceEnpoint {
+
+    ArrayList list=new ArrayList();
 
     private static Map<String, Session> livingSessions = new ConcurrentHashMap<String, Session>();
 
