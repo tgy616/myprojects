@@ -8,6 +8,8 @@ package com.tgy.jmx.mbean;
  **/
 public interface SimpleDataMBean {
 
+    String displayData();
+
     /**
      * Setter
      * Property

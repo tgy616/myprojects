@@ -119,9 +119,5 @@ public class Java8FilterTest {
         names.forEach(System.out::println);
     }
 
-
-
-
-
   /**2、在Java8使用Filter过滤List**/
 }
