@@ -1,11 +1,13 @@
 package com.tgy.springbootproperty.domin;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+
 /**
  * @author DragonSwimDiving
  * @program springbootproperty
  * @Date 2019-06-06 17:53
  **/
-
 public class Person {
     private Long id;
     private String name;

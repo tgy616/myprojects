@@ -5,12 +5,12 @@
         http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
 
     <bean id="person" class="com.tgy.springbootproperty.domin.Person" >
-       <!-- <property name="id"  value="${person.id}" />
+        <property name="id"  value="${person.id}" />
         <property name="name" value="小马哥" />
-        <property name="age" value="${person.age}" />-->
-        <property name="id"  value="1" />
-        <property name="name" value="小马哥" />
-        <property name="age" value="32" />
+        <property name="age" value="${person.age}" />
+        <!--<property name="id"  value="1" />-->
+        <!--<property name="name" value="小马哥" />-->
+        <!--<property name="age" value="32" />-->
     </bean>
 
 </beans>
