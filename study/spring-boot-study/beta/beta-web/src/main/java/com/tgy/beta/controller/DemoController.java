@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @Autowired
     private DemoService demoService;
-
+    //访问路径：http://localhost:8080/demo/test?id=10
     @GetMapping("/test")
     public String test(Integer id) {
         return demoService.test(id);
