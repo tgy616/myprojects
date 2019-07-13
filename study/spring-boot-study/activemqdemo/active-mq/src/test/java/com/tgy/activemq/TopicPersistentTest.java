@@ -6,13 +6,13 @@ import org.junit.Test;
 import javax.jms.*;
 
 /**
- * 模拟 ActiveMQ Topic消息失败重发
+ * 消息持久化订阅消息测试
  * @author DragonSwimDiving
  * @program activemqdemo
- * @Date 2019-07-13 14:23
+ * @Date 2019-07-13 15:41
  **/
 
-public class ActiveMQTest {
+public class TopicPersistentTest {
     //编写消息发送方--生产者
     @Test
     public void testSender() throws JMSException {
@@ -29,7 +29,7 @@ public class ActiveMQTest {
         //通过session对象创建消息的发送者
         MessageProducer producer = session.createProducer(topic);
         //通过session创建消息对象
-        TextMessage message = session.createTextMessage("Ping111");
+        TextMessage message = session.createTextMessage("Ping");
         //发送消息
         producer.send(message);
         //关闭资源
@@ -37,7 +37,8 @@ public class ActiveMQTest {
         session.close();
         connection.close();
     }
-    //编写消息的接收方--消费者(未持久化订阅)
+
+    //编写消息的接收方--消费者
     @Test
     public void testRecive() throws JMSException {
         //创建连接工厂对象
@@ -47,7 +48,7 @@ public class ActiveMQTest {
         //连接MQ服务
         connection.start();
         //获取session对象
-        Session session = connection.createSession(false, Session.CLIENT_ACKNOWLEDGE);
+        Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         //通过session对象创建Topic
         Topic topic = session.createTopic("TGY's-Topc-Name");
         //通过session对象创建消息的消费者
@@ -59,17 +60,7 @@ public class ActiveMQTest {
             public void onMessage(Message message) {
                 TextMessage textMessage=(TextMessage)message;
                 try {
-                    if (textMessage.getText().equals("Ping")){
-                        System.out.println("消费者接收到了消息："+textMessage.getText());
-                        //客服端手动应答
-                        message.acknowledge();
-                    }else {
-                        System.out.println("消息处理失败了。。。。");
-                        //通知MQ消息重发，最多可以重发6次
-                        session.recover();
-                        //模拟消息处理失败
-                        int i=1/0;
-                    }
+                    System.out.println("消费者接收到了消息："+textMessage.getText());
                 } catch (JMSException e) {
                     e.printStackTrace();
                 }
