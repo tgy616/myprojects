@@ -31,7 +31,8 @@ public class TopicPersistentTest {
         //通过session创建消息对象
         TextMessage message = session.createTextMessage("Ping");
         //发送消息
-        producer.send(message);
+        //producer.send(message);
+        producer.send(message,DeliveryMode.PERSISTENT,1,1000*60*60*24);
         //关闭资源
         producer.close();
         session.close();
@@ -45,6 +46,8 @@ public class TopicPersistentTest {
         ConnectionFactory connectionFactory=new ActiveMQConnectionFactory("tcp://localhost:61616");
         //从工厂中获取一个连接对象
         Connection connection = connectionFactory.createConnection();
+        //设置客户端ID
+        connection.setClientID("client-001");
         //连接MQ服务
         connection.start();
         //获取session对象
@@ -52,7 +55,9 @@ public class TopicPersistentTest {
         //通过session对象创建Topic
         Topic topic = session.createTopic("TGY's-Topc-Name");
         //通过session对象创建消息的消费者
-        MessageConsumer consumer = session.createConsumer(topic);
+        //MessageConsumer consumer = session.createConsumer(topic);
+        //客户端持久化订阅
+        TopicSubscriber consumer = session.createDurableSubscriber(topic, "client1-sub");
         //指定消息的监听器
         consumer.setMessageListener(new MessageListener() {
             //当监听topic中存在消息，这个方法自动执行
