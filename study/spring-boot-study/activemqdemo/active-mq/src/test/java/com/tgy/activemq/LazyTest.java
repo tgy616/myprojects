@@ -35,6 +35,8 @@ public class LazyTest {
                 //case3: 方法引用 invokedynamic指令实现（能够运行）
                 // System.out ::println 方法属于System.out 对象类java.io.PrintStream,它被Bootstrap Classloader加载 早于LazyTest.class(App/System Classloader)
                 System.out ::println
+                //加载的外部类和当前类在类初始化阶段不能有相互依赖了，否者容易相互等待
+                //Helloworld :helloworld
                 );
         t.start();
         try {
